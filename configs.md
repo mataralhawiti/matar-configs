@@ -26,3 +26,8 @@ Set-Alias -Name grep -Value Select-String
 ```
 . $PROFILE
 ```
+
+# WSL
+
+
+# Linux
