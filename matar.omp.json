@@ -17,9 +17,8 @@
           "type": "path"
         },
         {
-          "style": "plain",
-          "foreground": "#ffffff",
           "background": "#000000",
+          "foreground": "#ffffff",
           "foreground_templates": [
             "{{ if or (.Working.Changed) (.Staging.Changed) }}#00b7ff{{ end }}",
             "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#002eab{{ end }}",
@@ -29,10 +28,10 @@
           "properties": {
             "fetch_status": true,
             "fetch_stash_count": true,
-            "fetch_upstream_icon": true,
-            "branch_max_length": 25,
-            "template": "{{ .UpstreamIcon }}{{ .HEAD }}{{ .BranchStatus }}{{ if .Working.Changed }} \uF044 {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} \uF046 {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }} \uF692 {{ .StashCount }}{{ end }}"
+            "fetch_upstream_icon": true
           },
+          "style": "plain",
+          "template": " {{ .UpstreamIcon }}{{ .HEAD }}{{ if gt .StashCount 0 }} \ueb4b {{ .StashCount }}{{ end }} ",
           "type": "git"
         },
         {
