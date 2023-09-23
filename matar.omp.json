@@ -27,8 +27,6 @@
             "{{ if gt .Ahead 0 }}#ffc107{{ end }}",
             "{{ if gt .Behind 0 }}#ffc107{{ end }}"
           ],
-          "leading_diamond": "",
-          "trailing_diamond": "",
           "properties": {
             "fetch_status": true,
             "fetch_stash_count": true,
