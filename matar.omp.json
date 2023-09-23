@@ -35,6 +35,17 @@
           "type": "git"
         },
         {
+          "type": "go",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#111111",
+          "background": "#8ED1F7",
+          "properties": {
+            "prefix": " \uE626 ",
+            "display_version": true
+          }
+        },
+        {
           "background": "#ffc107",
           "foreground": "#ffffff",
           "powerline_symbol": "\ue0b0",
