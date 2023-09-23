@@ -28,6 +28,11 @@ Set-Alias -Name grep -Value Select-String
 ```
 
 # WSL
+```
+code .bashrc -n
+
+. ~/.profile 
+```
 
 
 # Linux
