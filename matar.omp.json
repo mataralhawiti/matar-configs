@@ -67,7 +67,7 @@
           "type": "time",
           "style": "plain",
           "background": "#000000",
-          "foreground": "#ffffff"
+          "foreground": "#00b7ff"
         }],
       "type": "rprompt"
     }
