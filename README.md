@@ -1,2 +1,2 @@
 # matar-configs
-Configs for CLIs
+Configs for CLIs and terminals
