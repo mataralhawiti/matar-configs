@@ -6,7 +6,7 @@
       "segments": [
         {
           "background": "#000000",
-          "foreground": "#ffffff",
+          "foreground": "#00b7ff",
           "properties": {
             "style": "full"
           },
@@ -17,7 +17,7 @@
         },
         {
           "background": "#000000",
-          "foreground": "#ffffff",
+          "foreground": "#00b7ff",
           "foreground_templates": [
             "{{ if or (.Working.Changed) (.Staging.Changed) }}#00b7ff{{ end }}",
             "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#002eab{{ end }}",
