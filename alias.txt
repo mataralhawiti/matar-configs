@@ -1,4 +1,4 @@
 # alias
 alias cls="clear"
 
-# TBU - alias from work laptop for git and k8
+# TBU - alias from work laptop for git, k8
