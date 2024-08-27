@@ -1,0 +1,4 @@
+code .bashrc
+
+# oh my posh
+eval "$(oh-my-posh --init --shell bash --config /home/matar/github/matar-configs/matar.omp.json)"
